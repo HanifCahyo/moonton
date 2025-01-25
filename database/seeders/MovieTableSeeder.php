@@ -21,8 +21,8 @@ class MovieTableSeeder extends Seeder
                 'slug' => 'the-shawshank-redemption',
                 'category' => 'Drama',
                 'video_url' => 'https://www.youtube.com/watch?v=6hB3S9bIaco',
-                'thumbnail' => 'https://www.youtube.com/watch?v=6hB3S9bIaco',
-                'rating' => 9.3,
+                'thumbnail' => 'https://static1.moviewebimages.com/wordpress/wp-content/uploads/sharedimages/2024/04/the-shawshank-redemption-movie-poster.jpg?q=50&fit=crop&w=480&dpr=1.5',
+                'rating' => 4.3,
                 'is_featured' => 1,
             ],
             [
@@ -30,8 +30,8 @@ class MovieTableSeeder extends Seeder
                 'slug' => 'the-godfather',
                 'category' => 'Crime',
                 'video_url' => 'https://www.youtube.com/watch?v=sY1S34973zA',
-                'thumbnail' => 'https://www.youtube.com/watch?v=sY1S34973zA',
-                'rating' => 9.2,
+                'thumbnail' => 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkhgAYsyt8Oz6qeID7Y378lG3EO7YXnKhZaWZHax3Ni1K7wbWTxNHrChzd55ER4Ott1q7vxqwRgvtnySOt1rhZ0z3xWfvaa9FrL2xyhCk',
+                'rating' => 4.2,
                 'is_featured' => 0,
             ],
             [
@@ -39,8 +39,8 @@ class MovieTableSeeder extends Seeder
                 'slug' => 'the-dark-knight',
                 'category' => 'Action',
                 'video_url' => 'https://www.youtube.com/watch?v=EXeTwQWrcwY',
-                'thumbnail' => 'https://www.youtube.com/watch?v=EXeTwQWrcwY',
-                'rating' => 9.0,
+                'thumbnail' => 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkUywIUXDjHSQJIaNHYVs08osgBpF5Ot-xmB_omyEZeeRP9Xug',
+                'rating' => 4.0,
                 'is_featured' => 0,
             ]
         ];
