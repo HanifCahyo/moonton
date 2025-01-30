@@ -50,6 +50,7 @@ export default function Topbar({ name }) {
                         >
                             Settings
                         </a>
+
                         <Link
                             href={route("logout")}
                             method="post"

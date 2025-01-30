@@ -1,11 +1,12 @@
 import Sidebar from "@/Layouts/Authenticated/Sidebar";
 import Topbar from "@/Layouts/Authenticated/Topbar";
+
 export default function Authenticated({ auth, children }) {
     return (
         <>
             <div className="hidden mx-auto max-w-screen lg:block">
                 {/* START: Siderbar */}
-                <Sidebar />
+                <Sidebar auth={auth} />
                 {/* END: Siderbar */}
 
                 {/* START: Content */}

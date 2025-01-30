@@ -4,8 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
+return new class extends Migration {
     /**
      * Run the migrations.
      *
@@ -16,7 +15,7 @@ return new class extends Migration
         Schema::create('user_subscriptions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained();
-            $table->foreignId('subscription_plans_id')->constrained();
+            $table->foreignId('subscription_plan_id')->constrained();
             $table->unsignedInteger('price');
             $table->dateTime('expired_date')->nullable();
             $table->string('payment_status', 10)->default('pending');
